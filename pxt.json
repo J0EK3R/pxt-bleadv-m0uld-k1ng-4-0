@@ -3,7 +3,8 @@
     "version": "0.0.2",
     "description": "Control Bluetooth M0uld K1ng Module 4.0. micro:bit (V2) only.",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "BLEAdv Common": "github:J0EK3R/pxt-bleadv-common#v0.0.6"
     },
     "files": [
         "main.ts",
