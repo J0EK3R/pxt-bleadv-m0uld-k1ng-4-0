@@ -1,14 +1,18 @@
 {
-    "name": "pxt-bleadv-m0uld-k1ng-4-0",
-    "description": "",
+    "name": "BLEAdv M0uld K1ng Module 4.0",
+    "version": "0.1.8",
+    "description": "Control Bluetooth M0uld K1ng Module 4.0. micro:bit (V2) only.",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "pxt-bleadv-common": "github:J0EK3R/pxt-bleadv-common#v0.0.2"
     },
     "files": [
-        "main.blocks",
         "main.ts",
+        "mk_module_4_0.cpp",
+        "Module_4_0_Service.cpp",
+        "Module_4_0_Service.h",
+        "enums.d.ts",
+        "shims.d.ts",
         "README.md"
     ],
     "testFiles": [
@@ -21,5 +25,7 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "disablesVariants": [
+        "mbdal"
+    ]
 }
