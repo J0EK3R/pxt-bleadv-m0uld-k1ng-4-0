@@ -18,7 +18,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "preferredEditor": "tsprj",
     "targetVersions": {
         "target": "7.0.57",
         "targetId": "microbit"
@@ -26,6 +25,7 @@
     "supportedTargets": [
         "microbit"
     ],
+    "preferredEditor": "tsprj",
     "disablesVariants": [
         "mbdal"
     ]
