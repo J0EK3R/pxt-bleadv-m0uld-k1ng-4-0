@@ -1,6 +1,6 @@
 {
     "name": "BLEAdv M0uld K1ng Module 4.0",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Control Bluetooth M0uld K1ng Module 4.0. micro:bit (V2) only.",
     "dependencies": {
         "core": "*",
